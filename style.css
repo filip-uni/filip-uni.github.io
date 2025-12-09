@@ -1,0 +1,27 @@
+#numeprenume {
+  font-family: "Serif", serif;
+  color: red;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 0px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#pagina {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:20px;
+}
+
+#poza {
+    display: block;
+    opacity: 0.95;
+}

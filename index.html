@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+<title>Evaluare 2 - Filip Alexandru</title>
+<link rel="stylesheet" href="./style.css">
+<style>
+.slideshow {
+  display: none;
+  text-align: center;
+}
+.slideshow img {
+  width: 70%;
+}
+</style>
+</head>
+<body>
+<section id="numeprenume">
+<h1>Filip Alexandru-Calin</h1>
+<p>filip.va.calin@student.utcluj.ro</p>
+</section>
+
+<p>Componente PC</p>
+<table border=1>
+  <tr>
+    <th>Componenta</th>
+    <th>Denumire</th>
+    <th>Producator</th>
+    <th>Parametri</th>
+  </tr>
+  <tr>
+    <td>CPU</td>
+    <td>i9-13900</td>
+    <td>Intel</td>
+    <td>24 cores, 5.60 GHz</td>
+  </tr>
+  <tr>
+    <td>GPU</td>
+    <td>RTX 3080</td>
+    <td>Gigabyte</td>
+    <td>1800 MHz, 10GB VRAM</td>
+  </tr>
+  <tr>
+    <td>RAM</td>
+    <td>Vengeance LPX</td>
+    <td>Corsair</td>
+    <td>DDR4, 12GB</td>
+  </tr>
+</table>
+
+<h1>Structura Retelei</h1>
+<div class="diagrama-img" id="poza">
+    <img src="images/diagrama.png" width="720" height="600">
+</div>
+
+<h2>Caracteristici Retea</h2>
+<ul>
+  <li>Adresa IP</li>
+  <li>Bandwith</li>
+  <li>Viteza</li>
+</ul>
+
+<h2 id="monitorizare-title">Monitorizare Resurse</h2>
+<div class="row" id="static-images">
+  <div class="column">
+    <img src="images/cpu.png" alt="" style="width:70%">
+  </div>
+  <div class="column">
+    <img src="images/ram.png" alt="" style="width:70%">
+  </div>
+  <div class="column">
+    <img src="images/net.png" alt="" style="width:70%">
+  </div>
+</div>
+
+<div class="slideshow" id="slideshow">
+  <img id="slide" src="images/cpu.png">
+</div>
+
+<script src="./script.js"></script>
+
+</body>
